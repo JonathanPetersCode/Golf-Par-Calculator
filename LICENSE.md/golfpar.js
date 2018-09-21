@@ -1,6 +1,7 @@
 var names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
 function golfScore(par, strokes) {
-  // Only change code below this line
+
+  
   if (strokes == 1){
     return "Hole-in-one!"; 
   }
@@ -28,8 +29,6 @@ else if (strokes <= par-2){
     return "Go Home!"; 
     }
 
-
-  // Only change code above this line
 }
 
 // Change these values to test
